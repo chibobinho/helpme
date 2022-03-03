@@ -9,8 +9,8 @@ import {
   View,
 } from 'react-native';
 
-import Login from './src/screens/Login';
-import Main from './src/screens/Main';
+import Login from './src/screens/login'
+import Main from './src/screens/main';
 
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';

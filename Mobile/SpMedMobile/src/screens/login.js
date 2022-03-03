@@ -21,8 +21,8 @@ export default class Login extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            email: 'aymbere.ponzetto@conexaodigital.com',
-            senha: '100',
+            email: 'pedro.gueiros@outlook.com',
+            senha: '777',
         };
     }
 
@@ -61,7 +61,7 @@ export default class Login extends Component {
 
                 <TextInput
                     style={styles.inputLogin}
-                    placeholder="******"
+                    placeholder="senha"
                     placeholderTextColor="#FFF"
                     keyboardType="default"
                     secureTextEntry={true}
